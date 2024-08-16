@@ -3,6 +3,10 @@ name: Patch and Build
 on:
   push:
     branches: [ "**" ]
+  workflow_run:
+    workflows: ["Sync Folia"]
+    types:
+     - completed  # Trigger on completion, including timeout
 
   workflow_dispatch:
 
