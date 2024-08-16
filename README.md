@@ -2,7 +2,7 @@
 
 To download the latest Folia build:
 
-1. Visit the [Folia GitHub Actions page](https://github.com/PinozenTH/Folia/actions/workflows/build.yml)
+1. Visit the [Folia GitHub Actions page](https://github.com/PaperMC/Folia/actions/workflows/build.yml)
 2. Click on the most recent successful workflow run
 3. Scroll down to the "Artifacts" section
 4. Download the "Folia-Server" artifact
